@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body>
+    <div class="py-[20px]">
+        <div class="flex justify-between items-center w-[95%] mx-auto mb-[20px]">
+            <a href="./index.html">
+                <img class="w-[300px]" src="https://www.countryflags.com/wp-content/themes/countryflags/assets/images/countryflags.svg" alt="">
+            </a>
+            <div class="w-[40%]">
+                <form id="searchForm" class="border border-black  w-full flex justify-between px-[10px] gap-2 items-center rounded-xl py-[8px]">
+                    <input id="search" type="text" class="outline-none w-full">
+                    <i class='bx bx-search'></i>
+                </form>
+            </div>
+
+            <div class="flex items-center gap-[15px]">
+                <i class='bx bx-cart text-[24px]'></i>
+                <select name="" id="">
+                    <option value="UZ">UZ</option>
+                    <option value="RUS">RUS</option>
+                    <option value="ENG">ENG</option>
+                </select>
+            </div>
+        </div>
+    
+        <div id="images" class=" grid grid-cols-8 gap-[10px] w-[95%] mx-auto">
+        </div>
+        <div id="clickImages" class="w-[100vw] flex justify-center">
+
+        </div>
+        <div id="searchImages" class="w-[95%] mx-auto flex justify-center">
+            <img id="searchImg" src="" alt="">
+        </div>
+        
+    </div>
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
